@@ -1,9 +1,11 @@
 package main
 
+import "fmt"
+
 func main() {
-	println("Hello World! I'm learning git.")
-	println("Making some changes to test git branches.")
-	println("Working with conflicts while merging.")
-	println("This conflicts with test branch.")
-	println("Need changes to undo with git reset")
+	fmt.Println("Hello World! I'm learning git.")
+	fmt.Println("Making some changes to test git branches.")
+	fmt.Println("Working with conflicts while merging.")
+	fmt.Println("This conflicts with test branch.")
+	fmt.Println("Need changes to undo with git reset")
 }
